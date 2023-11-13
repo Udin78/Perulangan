@@ -1,8 +1,14 @@
 <?php
-    $x = 1;
-
-    while($x <= 10) {
-        echo "Angka adalah: $x ";
-        $x++;
-    }
-    ?>
+$books = [
+    "panduan belajar PHP untuk pemula",
+    "Membangun Aplikasi Web dengan PHP",
+    "Tutorial PHP dan MySQL",
+    "Membuat Chat Bot dengan PHP"
+];
+echo "<h5> Judul Buku PHP: </h5>";
+echo "<ul>"
+foreach ($books as $buku) {
+    echo <li>$buku</li>;
+}
+echo "</ul>";
+?>
