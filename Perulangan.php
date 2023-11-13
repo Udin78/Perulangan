@@ -6,9 +6,9 @@ $books = [
     "Membuat Chat Bot dengan PHP"
 ];
 echo "<h5> Judul Buku PHP: </h5>";
-echo "<ul>"
+echo "<ul>";
 foreach ($books as $buku) {
-    echo <li>$buku</li>;
+    echo "<li>$buku</li>";
 }
 echo "</ul>";
 ?>
